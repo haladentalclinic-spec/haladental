@@ -1,0 +1,5 @@
+class AppConfig {
+  static const String supabaseUrl = "YOUR_SUPABASE_URL";
+  static const String supabaseAnonKey = "YOUR_SUPABASE_ANON_KEY";
+  static const String defaultClinicId = "99999999-9999-9999-9999-999999999999";
+}
