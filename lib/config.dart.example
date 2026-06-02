@@ -1,5 +1,20 @@
+// Copy this file to config.dart and fill in your credentials.
+// Do NOT commit config.dart — it is listed in .gitignore.
+
 class AppConfig {
+  // Supabase
   static const String supabaseUrl = "YOUR_SUPABASE_URL";
   static const String supabaseAnonKey = "YOUR_SUPABASE_ANON_KEY";
-  static const String defaultClinicId = "99999999-9999-9999-9999-999999999999";
+  static const String supabaseServiceRole = "YOUR_SUPABASE_SERVICE_ROLE_KEY";
+
+  // GitHub
+  static const String githubPat = "YOUR_GITHUB_PAT";
+  static const String githubRepo = "YOUR_GITHUB_REPO_URL";
+
+  // Cloudflare Pages
+  static const String cfAccountId = "YOUR_CF_ACCOUNT_ID";
+  static const String cfApiToken = "YOUR_CF_API_TOKEN";
+
+  // Default clinic ID
+  static const String defaultClinicId = "YOUR_DEFAULT_CLINIC_UUID";
 }
