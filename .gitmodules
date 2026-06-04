@@ -1,0 +1,3 @@
+[submodule "hala_dental_app"]
+	path = hala_dental_app
+	url = https://github.com/haladentalclinic-spec/dental.git
